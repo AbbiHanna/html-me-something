@@ -1,0 +1,15 @@
+body {
+    background-color: #e9dd72;
+    text-align: center;
+}
+h1 {
+    color: blue;
+    font-size: 36px;
+    font-family: fantasy;
+    
+}
+p {
+    color: black;
+    font-size: 25px;
+    font-family: sans-serif;
+}
