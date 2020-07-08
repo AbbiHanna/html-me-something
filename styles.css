@@ -1,15 +1,121 @@
 body {
-    background-color: #e9dd72;
+    
+    background: radial-gradient(circle, black,#e9dd72);
     text-align: center;
 }
+
+/*This particular color scheme was chosen as the background because it is hideous and unpleasant :)*/
+
 h1 {
     color: blue;
     font-size: 36px;
     font-family: fantasy;
+    border-style: solid;
+    border-color: black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
     
 }
-p {
-    color: black;
-    font-size: 25px;
-    font-family: sans-serif;
+h2 {
+    color: crimson;
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/*Trying to make the pictures all uniform for the sake of letting the user actually see the image, even
+though it would have been very ugly to have them all be different sizes, lol.*/
+img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 30px;
+}
+
+#image1 {
+  float: left;
+  margin-left: 15%;
+}
+
+#image2 {
+    float: right;
+    margin-right: 15%;
+}
+
+#image3 {
+    float: left;
+    margin-left: 15%;
+}
+
+#image4 {
+    float: right;
+    margin-right: 15%;
+}
+
+#image5 {
+    float: left;
+    margin-left: 15%;
+}
+
+#image6 {
+    float: right;
+    margin-right: 15%;
+}
+
+#image7 {
+    float: left;
+    margin-left: 15%;
+}
+
+#image8 {
+    float: right;
+    margin-right: 15%;
+}
+
+#image9 {
+    float: left;
+    margin-left: 15%;
+}
+
+#image10 {
+    float: right;
+    margin-right: 15%;
+}
+
+#image11 {
+    float: left;
+    margin-left: 15%;
+}
+
+#image12 {
+    float: right;
+    margin-right: 15%;
+}
+
+#image13 {
+    float: left;
+    margin-left: 15%;
+}
+
+#image14 {
+    float: right;
+    margin-right: 15%;
+}
+
+ a {
+    color: blue;
+    font-size: 15px;
+    font-family: cursive;
+}
+/*WHO on earth called comic sans 'cursive' for this?! Are they out of their mind!?*/
